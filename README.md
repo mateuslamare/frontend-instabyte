@@ -1,51 +1,89 @@
-# Alura - Imersão back-end
 
-Este é o repositório do front-end do projeto.
+# 📸 Instabyte - Frontend com Integração de IA
 
-**IMPORTANTE:** É necessário ter o [Node.js](https://nodejs.org/) instalado em seu computador antes de executar os comandos de instalação e execução do projeto. Versão recomendada: v20.x.x.
+O **Instabyte** é uma aplicação frontend moderna desenvolvida com React, que se integra perfeitamente com o backend do Instabyte, combinando recursos avançados de armazenamento de dados e imagens com a poderosa integração da **Google Gemini AI** 🤖.
 
-## PASSO 1: Baixe o código do projeto:
+---
 
-### Opção 1 - Clonando o repositório para o seu perfil no GitHub
+## 🎯 Propósito do Projeto
 
-> Para utilizar essa opção é necessário ter o [Git](https://git-scm.com/downloads) instalado e configurado em seu computador. Caso não esteja instalado ou você não tenha certeza, prossiga com a **opção 2** e baixe o .zip do projeto.
+O objetivo principal do **Instabyte** é fornecer uma interface de usuário intuitiva e eficiente para aplicativos que necessitam de armazenamento, processamento de imagens e integração com inteligência artificial. Ele complementa o backend do projeto Instabyte, criando uma experiência de usuário fluida e integrada.
 
-1. Faça o **fork** do projeto clicando no botão **Fork** na parte superior direita da página;
-2. Faça o **clone** do repositório para seu computador:
-  - Clique no botão **<> Code** e copie o endereço remoto do repositório;
-  - Abra o terminal, navegue até a pasta raiz onde deseja baixar o projeto e execute o comando `git clone <endereço remoto>`;
-  - Você pode acessar a pasta do projeto direto pelo Visual Studio Code, clicando em File > Open Folder e selecionando a pasta do projeto.
+---
 
-### Opção 2 - Baixando um arquivo .zip
+## 🛠️ O que foi Desenvolvido
 
-1. clique no botão **<> Code** e, em seguida, no botão **Download ZIP**;
-2. uma pasta zipada será baixada para a pasta de downloads determinada pelo seu navegador;
-3. descompacte os arquivos clicando no ícone da pasta zipada e transfira os arquivos para a pasta de projetos de sua preferência.
+1. **Interface de Usuário com React** 🌟  
+   - Componentes reutilizáveis e estilizados com **Styled-components**.
+   - Navegação fluida utilizando **React Router**.
 
+2. **Comunicação com Backend via API** 🌐  
+   - Requisições HTTP eficientes utilizando **Axios**.
+   - Gerenciamento de estado e dados com **Context API**.
 
-## PASSO 2: Instale o projeto:
+3. **Integração com Google Gemini AI** 🤖  
+   - Exibição e processamento de resultados de análises de IA diretamente na interface.
+   - Melhoria da experiência do usuário com funcionalidades inteligentes.
 
-### Opção 1 - Utilizando o terminal do Visual Studio Code
+4. **Gerenciamento de Uploads de Imagens** 📤  
+   - Interface amigável para upload de imagens.
+   - Pré-visualização de imagens antes do envio.
 
-1. Abra a pasta do projeto no Visual Studio Code clicando em File > Open Folder e selecionando a pasta do projeto;
-2. Clique em Terminal > New Terminal no menu superior do Visual Studio Code. O terminal deve abrir já direcionando para a pasta correta do projeto;
-3. Execute o comando `npm install` e aguarde a finalização.
+5. **Publicação na Web** 🌍  
+   - Hospedagem do frontend para acesso fácil e rápido.
 
-### Opção 2 - Utilizando outros terminais
+---
 
-1. Abra o terminal de sua preferência e navegue até a pasta do projeto, utilizando os comandos de navegação como `cd <pasta>`;
-2. Com o prompt apontando para a raiz da pasta do projeto, execute o comando `npm install` e aguarde a finalização.
+## 💻 Tecnologias Utilizadas
 
-## PASSO 3: Execute o projeto para subir o servidor local:
+### Frontend
+- **React** ⚛️: Biblioteca para construção de interfaces de usuário.
+- **Axios** ⚡: Biblioteca para realizar requisições HTTP.
+- **React Router** 🚦: Biblioteca para gerenciamento de rotas.
+- **Styled-components** 💅: Biblioteca para estilização de componentes.
 
-Acesse o terminal (do Visual Studio Code ou outro), certifique-se que esteja exibindo a pasta correta do projeto e execute o comando `npm run dev`. O terminal deverá retornar:
+### Integração de IA
+- **Google Gemini AI** 🤖: Plataforma de inteligência artificial para análise e processamento avançado de dados.
 
-```
-> dev
-> npx parcel --port 8000 index.html
+### Configuração e Ambiente
+- **dotenv** 🔐: Gerenciamento seguro de variáveis de ambiente.
+- **Netlify** 🌐: Plataforma para publicação de aplicações frontend.
 
-Server running at http://localhost:8000
-✨ Built in xxxms
-```
+---
 
-O projeto estará disponível no endereço http://localhost:8000 e você poderá acessá-lo no navegador de sua preferência.
+## 🚀 Funcionalidades
+
+- 📥 **Upload de arquivos e imagens** com pré-visualização e armazenamento seguro.
+- 🔍 **Consulta de dados e análise inteligente** através de uma interface intuitiva.
+- 🤖 **Exibição de resultados de IA** diretamente na interface do usuário.
+- 🌍 **Hospedagem na web** para acesso fácil e rápido.
+
+---
+
+## 🔧 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/mateuslamare/frontend-instabyte.git
+   cd frontend-instabyte
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Configure as variáveis de ambiente no arquivo `.env`.
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+
+---
+
+## 🌟 Sobre o Projeto
+
+O **Instabyte** é uma demonstração do poder de tecnologias modernas integradas a serviços de inteligência artificial. Ele combina simplicidade e sofisticação, permitindo que desenvolvedores o utilizem como base para criar soluções inovadoras.
+
+Contribua, experimente e leve o **Instabyte** a novos horizontes! 🚀
